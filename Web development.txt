@@ -1,7 +1,79 @@
 Web Development:-
 =========================
--->HTML,CSS,JAVA SCRIPT
+-->web development refers to creating,building and maintaining the web sites. 
+-->HTML,CSS,JAVASCRIPT
 -->HTML(hyper text markup language) is used for page structure.
--->CSS(cascading style sheet) takes control over the web page.
+-->CSS(cascading style sheet) takes control over the web page or used for styling purpose.
 -->JAVA SCRIPT is used for creating functional content to the web page.
 -->front end development is also called client side development which is developed by using html,css,javascript.
+==================================================================================================================
+-->WEB:
+    -->front end -->HTML,CSS,JS,bootstrap
+    -->backend
+-->HTML:- hyper text markup language -->used for website creation
+-->in html we completely deal with markup tags
+--><tag name> -->opening tag/paired tag  "content"  </tag name> -->closing tag/unpaired tag
+-->unpaired tags: --> img,br,input,hr
+--><!DOCTYPE HTML> -->it represents the html fileof version 5                            
+--><html>  -->root tag divides in to two parts                                           
+     <head lang="en">  -->head tag    lang represents the language                       
+        <title>FED DAY-01</title> -->it should be given inside the head tag only. 
+        <meta http-equvi="refresh" content="5"> -->this tag is used the refresh the updated content in web page for every 5 seconds.   
+       <style>  //tag selection
+            p{
+                color:red;
+                background-color: gold;
+            }
+         </style>    
+     </head>                                                                             
+     <body>   -->body tag 
+      <!--Heading tag--> -->comment
+      <h1>Heading 1</h1> -->larger heading
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>   -->shorter heading
+      <p>paragraph tag<br> </p>  -->block level elements  -->elements are said to be block level because each element palced in new line.                                                        
+     </body>                                                                            
+    </html>                                                                             
+-->inline elements -->each element palced in same line.
+--><br> -->it is used to break the content of the paragraph and divides in to multiple paragraphs
+<!--inline elements-->
+--><a href="link" target="_blank"> </a> -->anchor tag -->it is a self closed tag.
+-->href is called attribute corrector.
+-->traget="_blank" -->the web page will be opened in new page
+<!--relative path-->
+--><figure>
+      <img src="path" alt=" " width=" " height=" ">  -->src means source , alt means alternate text
+    </figure>
+<!--semantic tags-->
+--><div> div tag</div>  -->block level elements
+--><header>header tag
+       <nav> navigation tag</nav>
+   </header>
+--><main>             -->main tag contains severals sections
+     <section>
+        <article>
+        </article>
+     </section>
+     <section>
+         <aside>
+         </aside>
+     </section>
+   </main>
+--><footer>
+     </footer>
+--><!--list-->
+   <!--ordered list ,unoredred list , definition list-->
+    <ul>
+       <li><a href="#">HOME</li>
+       <li><a href="#">About</li>
+       <li><a href="#">Contact</li>
+    </ul>
+    <ol>
+      <li><a href="#">HOME</li>
+       <li><a href="#">About</li>
+       <li><a href="#">Contact</li>
+   </ol> 
+--><span> </span> -->inline elements
