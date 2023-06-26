@@ -20,23 +20,27 @@ Web Development:-
         <title>FED DAY-01</title> -->it should be given inside the head tag only. 
         <meta http-equvi="refresh" content="5"> -->this tag is used the refresh the updated content in web page for every 5 seconds.   
        <style>  
-         /* tag selector/
+         /* tag selector*/
             p{
                 color:red;
                 background-color: gold;
             }
-          /*id selector/
+          /*id selector*/
           #mypara{
              color:blue;
               background-color:black;
           }
-        /*class selector/
+        /*class selector*/
             .new_para{
             pading:10px;
             }
-        /* universal selector/
+        /* universal selector*/
          *{
              border: 1px solid red;
+          }
+       /* group selector*/
+         a,p{
+            text-align:center;
           }
          </style>    
      </head>                                                                             
