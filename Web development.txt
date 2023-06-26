@@ -19,11 +19,25 @@ Web Development:-
      <head lang="en">  -->head tag    lang represents the language                       
         <title>FED DAY-01</title> -->it should be given inside the head tag only. 
         <meta http-equvi="refresh" content="5"> -->this tag is used the refresh the updated content in web page for every 5 seconds.   
-       <style>  //tag selection
+       <style>  
+         /* tag selector/
             p{
                 color:red;
                 background-color: gold;
             }
+          /*id selector/
+          #mypara{
+             color:blue;
+              background-color:black;
+          }
+        /*class selector/
+            .new_para{
+            pading:10px;
+            }
+        /* universal selector/
+         *{
+             border: 1px solid red;
+          }
          </style>    
      </head>                                                                             
      <body>   -->body tag 
@@ -34,7 +48,7 @@ Web Development:-
       <h4>heading 4</h4>
       <h5>Heading 5</h5>
       <h6>Heading 6</h6>   -->shorter heading
-      <p>paragraph tag<br> </p>  -->block level elements  -->elements are said to be block level because each element palced in new line.                                                        
+      <p id = "mypara" class="new_para">paragraph tag<br> </p>  -->block level elements  -->elements are said to be block level because each element palced in new line.                                                        
      </body>                                                                            
     </html>                                                                             
 -->inline elements -->each element palced in same line.
