@@ -52,7 +52,16 @@ Web Development:-
       <h4>heading 4</h4>
       <h5>Heading 5</h5>
       <h6>Heading 6</h6>   -->shorter heading
-      <p id = "mypara" class="new_para">paragraph tag<br> </p>  -->block level elements  -->elements are said to be block level because each element palced in new line.                                                        
+      <p id = "mypara" class="new_para">paragraph tag<br> </p>  -->block level elements  -->elements are said to be block level because each element palced in new line.    
+      <table>
+        <thead>
+            <tr>
+               <th>Name</th>
+               <th>Description</th>
+               <th>Example</th> -->table headings
+           </tr>   -->table rows   
+        </thead>
+     </table>                                                 
      </body>                                                                            
     </html>                                                                             
 -->inline elements -->each element palced in same line.
